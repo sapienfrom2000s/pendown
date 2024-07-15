@@ -3,7 +3,7 @@
 //
 //    <%= vite_client_tag %>
 //    <%= vite_javascript_tag 'application' %>
-console.log('Vite ⚡️ Rails')
+console.log("Vite ⚡️ Rails");
 
 // If using a TypeScript entrypoint file:
 //     <%= vite_typescript_tag 'application' %>
@@ -11,7 +11,10 @@ console.log('Vite ⚡️ Rails')
 // If you want to use .jsx or .tsx, add the extension:
 //     <%= vite_javascript_tag 'application.jsx' %>
 
-console.log('Visit the guide for more information: ', 'https://vite-ruby.netlify.app/guide/rails')
+console.log(
+  "Visit the guide for more information: ",
+  "https://vite-ruby.netlify.app/guide/rails",
+);
 
 // Example: Load Rails libraries in Vite.
 //
@@ -26,3 +29,34 @@ console.log('Visit the guide for more information: ', 'https://vite-ruby.netlify
 
 // Example: Import a stylesheet in app/frontend/index.css
 // import '~/index.css'
+import _ from "lodash";
+
+console.log("Testing lodash:");
+console.log(_.capitalize("hello world"));
+console.log(_.sum([1, 2, 3, 4]));
+
+// import EditorJS from "@editorjs/editorjs";
+// import Header from "@editorjs/header";
+// import List from "@editorjs/list";
+//
+// const editor = new EditorJS({
+//   /**
+//    * Id of Element that should contain the Editor
+//    */
+//   holder: "editorjs",
+//
+//   /**
+//    * Available Tools list.
+//    * Pass Tool's class or Settings object for each Tool you want to use
+//    */
+//   tools: {
+//     header: {
+//       class: Header,
+//       inlineToolbar: ["link"],
+//     },
+//     list: {
+//       class: List,
+//       inlineToolbar: true,
+//     },
+//   },
+// });

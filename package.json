@@ -2,5 +2,11 @@
   "devDependencies": {
     "vite": "^5.3.3",
     "vite-plugin-ruby": "^5.0.0"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.30.2",
+    "@editorjs/header": "^2.8.7",
+    "@editorjs/list": "^1.9.0",
+    "lodash": "^4.17.21"
   }
 }

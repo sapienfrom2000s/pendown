@@ -61,3 +61,4 @@ end
 
 gem "vite_rails"
 gem "slim-rails"
+gem "clearance"

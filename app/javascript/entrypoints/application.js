@@ -29,34 +29,3 @@ console.log(
 
 // Example: Import a stylesheet in app/frontend/index.css
 // import '~/index.css'
-import _ from "lodash";
-
-console.log("Testing lodash:");
-console.log(_.capitalize("hello world"));
-console.log(_.sum([1, 2, 3, 4]));
-
-// import EditorJS from "@editorjs/editorjs";
-// import Header from "@editorjs/header";
-// import List from "@editorjs/list";
-//
-// const editor = new EditorJS({
-//   /**
-//    * Id of Element that should contain the Editor
-//    */
-//   holder: "editorjs",
-//
-//   /**
-//    * Available Tools list.
-//    * Pass Tool's class or Settings object for each Tool you want to use
-//    */
-//   tools: {
-//     header: {
-//       class: Header,
-//       inlineToolbar: ["link"],
-//     },
-//     list: {
-//       class: List,
-//       inlineToolbar: true,
-//     },
-//   },
-// });
